@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Challenge gampang</title>
+        <script>
+            function checkAnswer() {
+                const answer = document.getElementById("answer").value;
+                if (answer == "270208") {
+                    window.location.href = "duatwo.html";
+                } else {
+                    alert("Jawabannya salah :( silahkan coba lagi.");
+                }
+            }
+        </script>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+body{
+  font-family: 'Nunito';
+}
+            input {
+                background-color: #fff;
+                padding: 8px;
+                width: 300px;
+                border: 1px solid #000;
+                border-radius: 5px;
+                box-shadow: 5px 5px 0px #000;
+                outline: none;
+            }
+            button {
+                background-color: #44fbf999;
+                padding: 8px;
+                width: 100px;
+                border: 1px solid #000;
+                border-radius: 5px;
+                box-shadow: 5px 5px 0px #000;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Selamat datang Adila!!</h1>
+        <p>
+            Sepertinya kamu kepo ya dengan saya sebenarnya siapa, sampai sampai
+            bisa ke sini, tenang saja saya bukan penjahat yang ingin nerror atau
+            orang yang ingin nipu, saya hanya ingin confess saja. Kalo kamu mau
+            tahu siapa saya, silahkan pecahkan pertanyaan berikut.
+        </p>
+        <p><b>Hitung hasil dari (1000 × 270) + 208</b></p>
+        <center>
+            <input type="text" id="answer" placeholder="jawabannya" />
+            <br /><br />
+            <button onclick="checkAnswer()">Submit</button>
+        </center>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <p>Note: jawaban jangan pakai tanda TITIK.</p>
+    </body>
+</html>
